@@ -1,26 +1,42 @@
 import React, { Component } from "react";
+import { Switch, Route, Redirect, NavLink } from "react-router-dom";
+import "animate.css";
 import "./App.css";
-import 'bulma'
+import Nav from './components/Nav'
+import Content from './components/Content'
 
-const Links = () => (
-  <div className='Links'>
-    <a className='is-text'>Auth</a>
-    <a className='is-text'>Data</a>
-    <a className='is-text'>Ecomm</a>
-  </div>
+
+
+const ANavLink = ({ children, ...props }) => (
+  <NavLink activeClassName='selected' {...props}>
+    {children}
+  </NavLink>
 )
 
-
+const Links = (props) => (
+  <div className="Links animated bounce">
+    <ul className="is-flex" style={{ justifyContent: "space-evenly" }}>
+      <li>
+        <ANavLink to='/auth/'>Auth</ANavLink>
+      </li>
+      <li>
+        <ANavLink to="/data">Data</ANavLink>
+      </li>
+      <li>
+        <ANavLink to="/ecomm">E-commerce</ANavLink>
+      </li>
+    </ul>
+  </div>
+);
 
 class App extends Component {
   render() {
     return (
       <div className="wrapper">
         <div className="grid-container">
-          <div className="Logo">Logo</div>
+          <Nav />
           <Links />
-          <div className="Contact">Contact</div>
-          <div className="Content">Content</div>
+          <Content />
         </div>
       </div>
     );
