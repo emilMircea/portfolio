@@ -16,6 +16,16 @@ body {
   height: 100%
 }
 
+a {
+  color: gray;
+  font-size: 1.1rem;
+  font-weight: lighter;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
 .grid-container {
   display: grid;
   height: 100%;
@@ -25,27 +35,18 @@ body {
   grid-template-areas: "Logo Contact" "Links Content";
 }
 
-.selected {
-  font-weight: bold;
-  color: gray;
-  text-decoration: underline;
-  text-decoration-color: red;
-  text-decoration-style: double;
-}
 
 .Logo {
   grid-area: Logo;
-  background: gray;
 }
 
 .Contact {
   grid-area: Contact;
-  background: red;
   display: flex;
   justify-content: flex-end;
 }
 
-.Links, .Content {
+.Links {
   padding: 2rem;
 }
 
@@ -56,4 +57,26 @@ body {
 .Content {
   grid-area: Content;
   background: beige;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* sidebar styles */
+
+.selected {
+  font-weight: bold;
+  color: gray;
+  text-decoration: underline;
+  text-decoration-color: red;
+  text-decoration-style: double;
+}
+
+.p-heading {
+  color: #8080807d;
+  font-weight: bold;
+  margin-left: 1rem;
+  font-size: .8rem;
+  text-decoration: underline;
+  margin-top: -2rem;
+  margin-bottom: .9rem;
 }
