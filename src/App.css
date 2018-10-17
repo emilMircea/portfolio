@@ -1,3 +1,4 @@
+/* general styles  */
 html {
   height: 100%;
 }
@@ -24,6 +25,14 @@ body {
   grid-template-areas: "Logo Contact" "Links Content";
 }
 
+.selected {
+  font-weight: bold;
+  color: gray;
+  text-decoration: underline;
+  text-decoration-color: red;
+  text-decoration-style: double;
+}
+
 .Logo {
   grid-area: Logo;
   background: gray;
@@ -42,7 +51,6 @@ body {
 
 .Links {
   grid-area: Links;
-  background: blue;
 }
 
 .Content {
