@@ -8,7 +8,7 @@ const ANavLink = ({ children, ...props }) => (
 );
 
 const SideBar = () => (
-  <div className="Links animated bounce">
+  <div className="Links animated fadeInLeft">
     <p className='p-heading'>Case Studies</p>
     <ul className="is-flex ul-links" style={{ justifyContent: "space-evenly" }}>
       <li>
