@@ -1,19 +1,6 @@
-/* general styles  */
-html {
-  height: 100%;
-}
-body {
-  position: relative;
-  height: inherit;
-}
-
-#root {
-  height: inherit;
-}
-
 .wrapper {
   padding: 4rem;
-  height: 100%
+  height: 100%;
 }
 
 a {
@@ -29,9 +16,9 @@ p {
 .grid-container {
   display: grid;
   height: 100%;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 1.5fr 2.5fr;
   grid-template-rows: 0.25fr 1fr;
-  grid-gap: 75px 75px;
+  grid-gap: 200px 75px;
   grid-template-areas: "Logo Contact" "Links Content";
 }
 
@@ -48,17 +35,44 @@ p {
 
 .Links {
   padding: 2rem;
-}
-
-.Links {
   grid-area: Links;
 }
 
+.Links ul li {
+  text-transform: uppercase;
+}
+
+/* content styles */
 .Content {
   grid-area: Content;
-  background: beige;
+  padding: 0 4rem;
+  line-height: 2rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.content-heading-wrapper {
+  position: absolute;
+  top: -8rem;
+}
+
+.content-heading {
+  margin-top: -2rem;
+}
+
+.content-heading a {
+  font-size: .8rem;
+  font-weight: bold;
+  color: gray;
+  letter-spacing: .1rem;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.content-img {
+  width: 12rem;
 }
 
 /* sidebar styles */
@@ -66,9 +80,7 @@ p {
 .selected {
   font-weight: bold;
   color: gray;
-  text-decoration: underline;
-  text-decoration-color: red;
-  text-decoration-style: double;
+  border-bottom: 5px solid #f63632;
 }
 
 .p-heading {
