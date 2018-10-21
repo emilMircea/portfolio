@@ -1,22 +1,28 @@
 import React, { Component } from "react";
 import "animate.css";
 import "./App.css";
-import Nav from './components/Nav'
-import Content from './components/Content'
-import SideBar from './components/Sidebar'
+import Nav from "./components/Nav";
+import Content from "./components/Content";
+import SideBar from "./components/Sidebar";
+import { Route } from "react-router-dom";
 
-class App extends Component {
-  render() {
-    return (
-      <div className="wrapper">
-        <div className="grid-container">
-          <Nav />
-          <SideBar />
-          <Content />
-        </div>
-      </div>
-    );
-  }
-}
+const App = (props) => (
+  <div className="wrapper">
+    <div className="grid-container">
+      <Nav />
+      <SideBar pathname={props.location.pathname} />
+      <Content />
+    </div>
+  </div>
+)
 
-export default App;
+const PropsRoute = ({ component: Component, ...props }) => (
+  <Route
+    { ...props }
+    render={ renderProps => (<App { ...renderProps } { ...props } />) }
+  />
+);
+
+
+
+export default PropsRoute;
