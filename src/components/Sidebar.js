@@ -7,12 +7,12 @@ const ANavLink = ({ children, ...props }) => (
   </NavLink>
 );
 
-const SideBar = () => (
+const SideBar = (props) => (
   <div className="Links animated fadeInLeft">
     <p className='p-heading'>Case Studies</p>
     <ul className="is-flex ul-links" style={{ justifyContent: "space-evenly" }}>
       <li>
-        <ANavLink to="/auth/">Auth</ANavLink>
+        <ANavLink className={props.pathname === '/' ? 'selected' : ''} to="/auth/">Auth</ANavLink>
       </li>
       <li>
         <ANavLink to="/data">Data</ANavLink>
