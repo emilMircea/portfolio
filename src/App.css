@@ -92,3 +92,8 @@ p {
   margin-top: -2rem;
   margin-bottom: .9rem;
 }
+
+/* contact dropdown styles */
+#dropdown-menu {
+  left: inherit;
+}
