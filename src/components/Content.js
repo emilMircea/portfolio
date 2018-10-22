@@ -3,7 +3,7 @@ import {Route} from 'react-router-dom'
 import routes from '../constants/routes'
 import name from '../images/name.svg'
 import { Link } from 'react-router-dom'
-import CVComponent from './CVComponent'
+import CVComponent from './CV/CVComponent'
 
 const Content = () => (
   <div className="Content animated fadeInRight">
