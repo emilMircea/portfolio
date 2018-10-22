@@ -1,0 +1,19 @@
+.cv-column {
+  border-bottom: 1px solid;
+  width: 100%;
+}
+
+.cv-column p {
+  font-weight: 300;
+}
+
+
+.contact-info p {
+  font-size: .75rem;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.cv-heading {
+  text-decoration: underline;
+}
