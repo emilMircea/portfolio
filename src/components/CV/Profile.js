@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Profile = () => (
-  <div className="column is-8 is-offset-2">
+  <div className="column is-6 is-offset-3">
     <p className="subtitle has-text-weight-light cv-heading">Profile</p>
     <p className='has-text-weight-light'>
       A full stack developer with 4 years of experience building webapps with JS and Ruby.

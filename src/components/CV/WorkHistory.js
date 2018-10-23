@@ -90,7 +90,7 @@ const TwoThousandEight = () => (
 
 
 const WorkHistory = () => (
-  <div className="column is-8 is-offset-2">
+  <div className="column is-6 is-offset-3">
     <p className="subtitle has-text-weight-light cv-heading">Work History</p>
     <TwoThousandEighteen />
     <br />
