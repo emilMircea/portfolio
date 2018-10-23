@@ -6,7 +6,7 @@ const Logo = () => (
     className="Logo is-flex dropdown is-active"
     style={{ paddingLeft: "3rem" }}
   >
-    <a className="is-text">Portfolio</a>
+    <p className="is-text">Portfolio</p>
   </div>
 );
 
@@ -25,30 +25,27 @@ class Contact extends React.Component {
     const { isActive } = this.state;
     return (
       <div className={`dropdown Contact ${isActive ? 'is-active' : ''}`}>
-        <div className="dropdown-trigger">
-          <a
-            className="is-text"
+        <div className="dropdown-trigger has-text-centered">
+          <button
+            className="button is-text"
             aria-haspopup="true"
             aria-controls="dropdown-menu"
             onClick={this.toggleState}
           >
-            <span>Contact</span>
-            <span className="icon is-small">
-              <i className="fas fa-angle-down" aria-hidden="true" />
-            </span>
-          </a>
+            Contact
+          </button>
         </div>
         <div className="dropdown-menu" id="dropdown-menu" role="menu">
           <div className="dropdown-content is-flex">
-            <a className="dropdown-item">
+            <p className="dropdown-item">
               emil-mircea@protonmail.com
-            </a>
-            <a className="dropdown-item">Github</a>
+            </p>
+            <p className="dropdown-item">Github</p>
 
             <hr className="dropdown-divider" />
-            <a className="dropdown-item">
+            <p className="dropdown-item">
               LinkedIn
-            </a>
+            </p>
           </div>
         </div>
       </div>

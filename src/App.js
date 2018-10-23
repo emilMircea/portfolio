@@ -1,7 +1,6 @@
 import React from "react";
 import "animate.css";
 import "./App.css";
-import Nav from "./components/Nav";
 import { Switch, Route } from "react-router-dom";
 import CVComponent from "./components/CV/CVComponent";
 import CaseStudies from "./components/CaseStudies";
