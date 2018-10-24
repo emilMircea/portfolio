@@ -51,15 +51,14 @@ const TwoThousandSixteen = () => (
       2014-2017: Full stack developer (Gloria Jeans Romania)
     </p>
     <p className="has-text-weight-light  is-size-6">
-      Software Developer on the team that implemented search and profitability
-      analysis on products.
+      Software Developer on the team that implemented products profitability
+      analysis.
     </p>
     <p className="has-text-weight-light  is-size-6">
       Software Developer on the team that implemented sales analysis.
     </p>
     <p className="has-text-weight-light  is-size-6">
-      Developed marketing promotion app to automatically find and reward the top
-      3 customers of the week.
+      Developed marketing promotion app to automatically find and reward the top customers each week.
     </p>
     <p>
       <span className=" is-capitalized is-size-7">
