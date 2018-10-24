@@ -12,13 +12,13 @@ const SideBar = (props) => (
     <p className='p-heading'>Case Studies</p>
     <ul className="is-flex ul-links" style={{ justifyContent: "space-evenly" }}>
       <li>
-        <ANavLink className={props.pathname === '/' ? 'selected' : ''} to="/auth/">Auth</ANavLink>
+        <ANavLink to="/ecomm">E-commerce</ANavLink>
       </li>
       <li>
         <ANavLink to="/data">Data</ANavLink>
       </li>
       <li>
-        <ANavLink to="/ecomm">E-commerce</ANavLink>
+        <ANavLink className={props.pathname === '/' ? 'selected' : ''} to="/auth/">Auth</ANavLink>
       </li>
     </ul>
   </div>
