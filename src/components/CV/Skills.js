@@ -1,8 +1,8 @@
 import React from 'react';
 
 const Skills = () => (
-  <div className="column is-6 is-offset-3">
-    <p className="subtitle has-text-weight-light cv-heading">Skills</p>
+  <div className="column">
+    <p className="subtitle cv-heading">Skills</p>
     <p className='has-text-weight-light'>
       Languages: Ruby, Javascript
     </p>

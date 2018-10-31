@@ -2,6 +2,7 @@ import React from 'react';
 
 const References = () => (
   <React.Fragment>
+    <p className="subtitle cv-heading">References</p>
     <p className="has-text-weight-light is-capitalized">
       Florin Toader - CTO @ Achiral software.{" "}
       <span className="is-lowercase">office@achiral.io</span>
@@ -14,6 +15,7 @@ const References = () => (
       Mihai Florescu - Manager @ Gloria Jeans.{" "}
       <span className="is-lowercase">mflorescu@gloriajeans.ro</span>
     </p>
+    <br/>
   </React.Fragment>
 );
 
