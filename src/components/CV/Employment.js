@@ -1,12 +1,12 @@
 import React from "react";
-import Education from './Education'
-import References from './References'
-import styled from 'styled-components'
+import Education from "./Education";
+import References from "./References";
+import styled from "styled-components";
 
 const Achievement = styled.li`
   padding-left: 1rem;
   list-style-type: circle;
-`
+`;
 
 const TwoThousandEight = () => (
   <React.Fragment>
@@ -14,13 +14,15 @@ const TwoThousandEight = () => (
       2004-2009: Business Analyst Arabesque - Galati, Romania
     </p>
     <Achievement className="has-text-weight-light  is-size-5">
-      Gather information, evaluate business operations, determine business objectives.
+      Gather information, evaluate business operations, determine business
+      objectives.
     </Achievement>
     <Achievement className="has-text-weight-light  is-size-5">
-    Evaluate and interpret data for business analysis and strategic decision-making.
+      Evaluate and interpret data for business analysis and strategic
+      decision-making.
     </Achievement>
     <Achievement className="has-text-weight-light  is-size-5">
-    Analyse trends and prepare technical reports.
+      Analyse trends and prepare technical reports.
     </Achievement>
   </React.Fragment>
 );
@@ -32,7 +34,7 @@ const TwoThousandSixteen = () => (
     </p>
     <Achievement className="has-text-weight-light is-size-5">
       Contributed to software for product profitability which led to reduced
-costs of aquisition.
+      costs of aquisition.
     </Achievement>
     <Achievement className="has-text-weight-light is-size-5">
       Software Developer on the team that implemented sales analysis.
@@ -46,7 +48,7 @@ costs of aquisition.
       </span>
     </p>
   </React.Fragment>
-)
+);
 
 const TwoThousandSeventeen = () => (
   <React.Fragment>
@@ -71,7 +73,8 @@ const TwoThousandSeventeen = () => (
 const TwoThousandEighteen = () => (
   <React.Fragment>
     <p className="is-capitalized employment-position">
-      2017-2018: Full Stack Developer - Ruby on Rails & JS, MEOW Stores - Nederland
+      2017-2018: Full Stack Developer - Ruby on Rails & JS, MEOW Stores -
+      Nederland
     </p>
     <Achievement className="has-text-weight-light is-size-5">
       Increased total sales revenue by implementing a custom sales analysis.
@@ -80,8 +83,8 @@ const TwoThousandEighteen = () => (
       Boost sales by 8% through email campaign for active customers.
     </Achievement>
     <Achievement className="has-text-weight-light is-size-5">
-      Demonstrated a React E-Commerce app that would increase sales by
-providing a better user experience.
+      Demonstrated a React E-Commerce app that would increase sales by providing
+      a better user experience.
     </Achievement>
     <p>
       <span className="tech-used is-capitalized is-size-7">

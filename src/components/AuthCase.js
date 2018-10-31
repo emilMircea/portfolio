@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const AuthCase = () => (
   <div className="animated fadeIn case-wrapper">
@@ -9,6 +9,5 @@ const AuthCase = () => (
     </p>
   </div>
 );
-
 
 export default AuthCase;

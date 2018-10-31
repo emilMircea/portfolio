@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Education = () => (
   <React.Fragment>
@@ -11,7 +11,7 @@ const Education = () => (
       2013: Bachelor of Science in public management, The Hague University, the
       Netherlands
     </p>
-    <br/>
+    <br />
   </React.Fragment>
 );
 

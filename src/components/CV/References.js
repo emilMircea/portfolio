@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const References = () => (
   <React.Fragment>
@@ -15,7 +15,7 @@ const References = () => (
       Mihai Florescu - Manager @ Gloria Jeans.{" "}
       <span className="is-lowercase">mflorescu@gloriajeans.ro</span>
     </p>
-    <br/>
+    <br />
   </React.Fragment>
 );
 
