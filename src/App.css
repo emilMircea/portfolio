@@ -37,6 +37,7 @@ p {
   grid-area: Contact;
   display: flex;
   justify-content: flex-end;
+  height: 35px;
 }
 
 .Links {

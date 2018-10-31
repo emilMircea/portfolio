@@ -7,13 +7,45 @@
   font-weight: 300;
 }
 
-
 .contact-info p {
   font-size: .75rem;
   font-style: italic;
   font-weight: bold;
 }
 
-.cv-heading {
-  text-decoration: underline;
+.title {
+  letter-spacing: 3px;
+  justify-content: center;
+}
+
+.title p::first-letter {
+  font-size: 2.9rem;
+}
+
+.title p {
+  font-weight: 500;
+  font-size: 2.3rem;
+  margin-right: 15px;
+  letter-spacing: 5px;
+}
+
+.subtitle.cv-heading {
+  border-bottom: 1px solid;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: .6rem;
+}
+
+.subtitle.cv-heading::first-letter {
+  font-size: 1.85rem;
+  font-weight: 400;
+}
+
+.employment-position {
+  font-weight: 500;
+}
+
+.tech-used {
+  font-weight: 800;
 }
