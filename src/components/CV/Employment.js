@@ -25,10 +25,10 @@ const TwoThousandEight = () => (
   </React.Fragment>
 );
 
-const TwoThousandSixteen = () => (
+const TwoThousandFifteen = () => (
   <React.Fragment>
     <p className="is-capitalized employment-position">
-      2015-2017: Web Developer - Ruby on Rails & JS, Gloria Jeans, Romania
+      2015-2016: Web Developer - Ruby on Rails & JS, Gloria Jeans, Romania
     </p>
     <Achievement className="has-text-weight-light is-size-5">
       Contributed to software for product profitability which led to reduced
@@ -100,7 +100,7 @@ const Employment = () => (
     <br />
     <TwoThousandSeventeen />
     <br />
-    <TwoThousandSixteen />
+    <TwoThousandFifteen />
     <br />
     <TwoThousandEight />
     <br />
