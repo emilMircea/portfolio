@@ -20,7 +20,7 @@ const EcommCase = () => (
               Faster navigation
             </span>{" "}
             between pages without triggering browser reload. Here react-router-4
-            helps deliver a responsive experience for the user.
+            helps deliver a responsive user experience.
           </p>
           <br />
           <VideoCard videosource="https://duaw26jehqd4r.cloudfront.net/items/0F412k0H3F1Z0121041c/Screen%20Recording%202018-11-09%20at%2003.19%20PM.mov" />
