@@ -19,18 +19,15 @@ p {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 1.5fr 2.5fr;
-  grid-template-rows: 0.15fr 1fr;
+  /* grid-template-columns: 1.5fr 2.5fr;
+  grid-template-rows: 0.15fr 1fr; */
+  grid-template-columns: 1.5fr 2.2fr;
+  grid-template-rows: 0.22fr 1fr;
   grid-gap: 100px 75px;
   grid-template-areas: "Logo Contact" "Links Content";
   position: relative;
   height: auto;
   min-height: 100% !important;
-}
-
-
-.Logo {
-  grid-area: Logo;
 }
 
 .Contact {
@@ -67,7 +64,7 @@ p {
 }
 
 .content-heading {
-  margin-top: -2rem;
+  margin-top: -4rem;
 }
 
 .underline {
@@ -106,9 +103,4 @@ p {
   text-decoration: underline;
   margin-top: -2rem;
   margin-bottom: .9rem;
-}
-
-/* contact dropdown styles */
-#dropdown-menu {
-  left: inherit;
 }
