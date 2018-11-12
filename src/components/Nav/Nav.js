@@ -5,7 +5,7 @@ import "./Nav.css";
 const Logo = () => (
   <div
     className="Logo is-flex dropdown is-active"
-    style={{ paddingLeft: "3rem" }}
+    style={{ paddingLeft: "3rem", alignItems: 'flex-start' }}
   >
     <p className="is-text">Portfolio</p>
   </div>
