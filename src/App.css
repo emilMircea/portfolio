@@ -20,8 +20,8 @@ p {
 .grid-container {
   display: grid;
   grid-template-columns: 1.5fr 2.5fr;
-  grid-template-rows: 0.25fr 1fr;
-  grid-gap: 200px 75px;
+  grid-template-rows: 0.15fr 1fr;
+  grid-gap: 100px 75px;
   grid-template-areas: "Logo Contact" "Links Content";
   position: relative;
   height: auto;
@@ -70,24 +70,23 @@ p {
   margin-top: -2rem;
 }
 
-.content-heading a {
-  font-size: .75rem;
-  font-weight: bold;
-  color: gray;
-  letter-spacing: .1rem;
-}
-
 .underline {
   text-decoration: underline;
 }
 
 .content-img {
-  width: 14rem;
+  width: 24rem;
 }
 
 .case-wrapper {
   display: block;
-  overflow: auto;
+}
+
+.card {
+  box-shadow: none;
+  border-top: 1px solid darkgray;
+  border-bottom: 1px solid darkgray;
+  margin-bottom: 1rem;
 }
 
 
