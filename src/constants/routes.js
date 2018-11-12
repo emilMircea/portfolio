@@ -7,7 +7,11 @@ const routes = [
   {
     path: "/",
     exact: true,
-    main: () => <AuthCase />
+    main: () => <EcommCase />
+  },
+  {
+    path: "/ecomm",
+    main: () => <EcommCase />
   },
   {
     path: "/auth",
@@ -17,10 +21,6 @@ const routes = [
   {
     path: "/data",
     main: () => <DataCase />
-  },
-  {
-    path: "/ecomm",
-    main: () => <EcommCase />
   }
 ];
 
