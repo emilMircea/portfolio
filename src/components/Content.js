@@ -6,13 +6,7 @@ import name from "../images/name2.svg";
 const Content = () => (
   <div className="Content animated fadeInRight">
     <div className="content-heading-wrapper">
-      <img className="content-img" src={name} alt="Emil Dragan" />
-      <p className="content-heading">
-        <NavLink className='cv-link' to="/cv">
-          More than 3 years of experience with JS and Ruby.
-          <span className="underline">See CV</span>
-        </NavLink>
-      </p>
+      <img className="content-img" src={name} alt="Emil Dragan" style={{ marginTop: '2.5rem' }} />
     </div>
     {routes.map((route, index) => (
       <Route
