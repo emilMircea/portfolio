@@ -38,14 +38,10 @@ class Contact extends React.Component {
         <div className="dropdown-menu" id="dropdown-menu" role="menu">
           <div className="dropdown-content is-flex">
             <p className="dropdown-item">
-              emil-mircea@protonmail.com
+              <a href="#null">emil-mircea@protonmail.com</a>
             </p>
-            <p className="dropdown-item">Github</p>
+            <p className="dropdown-item"><a href="https://github.com/emilMircea">Github</a></p>
 
-            <hr className="dropdown-divider" />
-            <p className="dropdown-item">
-              LinkedIn
-            </p>
           </div>
         </div>
       </div>
