@@ -1,0 +1,39 @@
+
+.Logo {
+  align-items: flex-start;
+}
+
+.dropdown {
+  align-items: center;
+}
+
+.dropdown-menu {
+  left: -18rem;
+}
+
+.dropdown-content {
+  width: 400px;
+  justify-content: space-between;
+}
+
+.see-cv-link {
+  background: black;
+  padding: .27rem .3rem;
+  color: antiquewhite;
+  background-color: #2e2e2e;
+  margin-right: 1rem;
+}
+
+.see-cv-link:hover {
+  background: transparent;
+  text-decoration: underline;
+  color: rgb(0, 122, 255);
+}
+
+.see-contact-info {
+  border: 2px solid #2e2e2e;
+  font-size: 1.1rem;
+  color: gray;
+  padding: .27rem .3rem;
+  margin-top: 10px;
+}
