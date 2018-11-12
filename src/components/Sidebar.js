@@ -17,9 +17,6 @@ const SideBar = (props) => (
       <li>
         <ANavLink to="/data">Data</ANavLink>
       </li>
-      <li>
-        <ANavLink to="/auth/">Auth</ANavLink>
-      </li>
     </ul>
   </div>
 );
