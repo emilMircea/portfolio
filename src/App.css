@@ -19,11 +19,9 @@ p {
 
 .grid-container {
   display: grid;
-  /* grid-template-columns: 1.5fr 2.5fr;
-  grid-template-rows: 0.15fr 1fr; */
   grid-template-columns: 1.5fr 2.2fr;
   grid-template-rows: 0.22fr 1fr;
-  grid-gap: 100px 75px;
+  grid-gap: 100px 35px;
   grid-template-areas: "Logo Contact" "Links Content";
   position: relative;
   height: auto;
@@ -72,7 +70,7 @@ p {
 }
 
 .content-img {
-  width: 24rem;
+  width: 28rem;
 }
 
 .case-wrapper {
