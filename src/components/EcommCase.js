@@ -3,7 +3,7 @@ import VideoCard from "./VideoCard";
 
 const EcommCase = () => (
   <div className="animated fadeIn case-wrapper">
-    <p className="subtitle has-text-grey is-uppercase has-text-weight-semibold">
+    <p className="has-text-grey is-uppercase has-text-weight-semibold">
       E-commerce Case Study
     </p>
     <p className="problem is-italic has-text-weight-light is-size-6">
