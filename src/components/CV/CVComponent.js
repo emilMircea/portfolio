@@ -1,7 +1,6 @@
 import React from "react";
 import "./CV.css";
 import Info from "./Info";
-import Profile from "./Profile";
 import Skills from "./Skills";
 import Employment from "./Employment";
 import Education from "./Education";
