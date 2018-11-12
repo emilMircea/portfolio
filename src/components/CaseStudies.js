@@ -1,7 +1,7 @@
 import React from 'react';
 import Content from "./Content";
 import SideBar from "./Sidebar";
-import Nav from './Nav'
+import Nav from './Nav/Nav'
 
 const CaseStudies = props => (
   <div className="grid-container">
