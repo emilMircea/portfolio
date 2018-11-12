@@ -1,7 +1,7 @@
 import React from "react";
 
 const Education = () => (
-  <React.Fragment>
+  <div className='column education'>
     <p className="subtitle cv-heading">Education</p>
     <p className="has-text-weight-light is-capitalized">
       2016: Master of science in public administration, Leiden University, the
@@ -12,7 +12,7 @@ const Education = () => (
       Netherlands
     </p>
     <br />
-  </React.Fragment>
+  </div>
 );
 
 export default Education;

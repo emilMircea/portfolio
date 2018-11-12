@@ -1,7 +1,7 @@
 import React from "react";
 
 const References = () => (
-  <React.Fragment>
+  <div className='column references'>
     <p className="subtitle cv-heading">References</p>
     <p className="has-text-weight-light is-capitalized">
       Florin Toader - CTO @ Achiral software.{" "}
@@ -16,7 +16,7 @@ const References = () => (
       <span className="is-lowercase">mflorescu@gloriajeans.ro</span>
     </p>
     <br />
-  </React.Fragment>
+  </div>
 );
 
 export default References;
