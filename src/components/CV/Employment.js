@@ -1,6 +1,4 @@
 import React from "react";
-import Education from "./Education";
-import References from "./References";
 import styled from "styled-components";
 
 const Achievement = styled.li`
@@ -56,10 +54,10 @@ const TwoThousandSeventeen = () => (
       2016-2017: Full Stack Developer - JS, Achiral.io, Romania.
     </p>
     <Achievement className="has-text-weight-light  is-size-5">
-      Built business analytics app that extracted data from Excel sheets.
+      Sped business decision making by building analytics app that extracted data from Excel sheets.
     </Achievement>
     <Achievement className="has-text-weight-light  is-size-5">
-      Built UIs with charts for various key business indicators
+      Helped business insights by building UIs with custom charts for various key business indicators
     </Achievement>
     <p>
       <span className="tech-used is-capitalized is-size-7">
@@ -77,10 +75,10 @@ const TwoThousandEighteen = () => (
       Nederland
     </p>
     <Achievement className="has-text-weight-light is-size-5">
-      Increased total sales revenue by implementing a custom sales analysis.
+      Decreased inventory costs by implementing a custom sales analysis which yielded trending products and best sellers per quarter.
     </Achievement>
     <Achievement className="has-text-weight-light is-size-5">
-      Boost sales by 8% through email campaign for active customers.
+      Increased sales by 8% through email campaign for active customers.
     </Achievement>
     <Achievement className="has-text-weight-light is-size-5">
       Demonstrated a React E-Commerce app that would increase sales by providing
