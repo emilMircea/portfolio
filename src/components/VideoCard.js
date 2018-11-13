@@ -2,7 +2,7 @@ import React from "react";
 
 const OnlineVersionLink = ({ onlineVersion }) => (
   <a className="is-size-6" href={onlineVersion}>
-    {onlineVersion ? "View Online App" : "Online Version Not Yet Available"}
+    {onlineVersion ? "Try It Online" : "Online Version Not Yet Available"}
   </a>
 );
 
