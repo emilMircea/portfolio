@@ -1,16 +1,25 @@
 import React from "react";
 import styled from "styled-components";
+import { IoMdCalendar } from "react-icons/io";
 
 const Achievement = styled.li`
   padding-left: 1rem;
   list-style-type: circle;
 `;
 
+const CenteredParag = styled.p`
+  display: flex;
+  align-items: center;
+`;
+
 const TwoThousandEight = () => (
   <React.Fragment>
-    <p className="is-capitalized employment-position">
+    <CenteredParag className="is-capitalized employment-position is-flex">
+      <span className="icon">
+        <IoMdCalendar />
+      </span>
       2004-2009: Business Analyst Arabesque - Galati, Romania
-    </p>
+    </CenteredParag>
     <Achievement className="has-text-weight-light  is-size-5">
       Gather information, evaluate business operations, determine business
       objectives.
@@ -27,9 +36,12 @@ const TwoThousandEight = () => (
 
 const TwoThousandFifteen = () => (
   <React.Fragment>
-    <p className="is-capitalized employment-position">
+    <CenteredParag className="is-capitalized employment-position is-flex">
+      <span className="icon">
+        <IoMdCalendar />
+      </span>
       2015-2016: Web Developer - Ruby on Rails & JS, Gloria Jeans, Romania
-    </p>
+    </CenteredParag>
     <Achievement className="has-text-weight-light is-size-5">
       Contributed to software for product profitability which led to reduced
       costs of aquisition.
@@ -50,14 +62,19 @@ const TwoThousandFifteen = () => (
 
 const TwoThousandSeventeen = () => (
   <React.Fragment>
-    <p className="is-capitalized employment-position">
+    <CenteredParag className="is-capitalized employment-position is-flex">
+      <span className="icon">
+        <IoMdCalendar />
+      </span>
       2016-2017: Full Stack Developer - JS, Achiral.io, Romania.
-    </p>
+    </CenteredParag>
     <Achievement className="has-text-weight-light  is-size-5">
-      Sped business decision making by building analytics app that extracted data from Excel sheets.
+      Sped business decision making by building analytics app that extracted
+      data from Excel sheets.
     </Achievement>
     <Achievement className="has-text-weight-light  is-size-5">
-      Helped business insights by building UIs with custom charts for various key business indicators
+      Helped business insights by building UIs with custom charts for various
+      key business indicators
     </Achievement>
     <p>
       <span className="tech-used is-capitalized is-size-7">
@@ -70,19 +87,22 @@ const TwoThousandSeventeen = () => (
 
 const TwoThousandEighteen = () => (
   <React.Fragment>
-    <p className="is-capitalized employment-position">
-      2017-2018: Full Stack Developer - Ruby on Rails & JS, MEOW Stores -
+    <CenteredParag className="is-capitalized employment-position">
+      <span className="icon">
+        <IoMdCalendar />
+      </span>
+      2017-2018: Full Stack Developer - Rails & JS, MEOW Stores -
       Nederland
-    </p>
+    </CenteredParag>
     <Achievement className="has-text-weight-light is-size-5">
-      Decreased inventory costs by implementing a custom sales analysis which yielded trending products and best sellers per quarter.
+      Decreased inventory costs by 5% through implementing a custom sales analysis which
+      yielded trending products and best sellers per quarter.
     </Achievement>
     <Achievement className="has-text-weight-light is-size-5">
       Increased sales by 8% through email campaign for active customers.
     </Achievement>
     <Achievement className="has-text-weight-light is-size-5">
-      Demonstrated a React E-Commerce app that would increase sales by providing
-      a better user experience.
+      Demonstrated a React E-Commerce solution focused on better user experience to increase conversion rates.
     </Achievement>
     <p>
       <span className="tech-used is-capitalized is-size-7">
