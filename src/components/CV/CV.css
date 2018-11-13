@@ -3,6 +3,13 @@
   text-decoration: underline;
 }
 
+.back-to-root-link {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  font-size: .9rem;
+}
+
 .cv-column {
   border-bottom: 1px solid;
   width: 100%;
@@ -54,5 +61,3 @@
 .tech-used {
   font-weight: 800;
 }
-
-
