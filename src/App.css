@@ -21,7 +21,7 @@ p {
   display: grid;
   grid-template-columns: 1.5fr 2.2fr;
   grid-template-rows: 0.22fr 1fr;
-  grid-gap: 100px 35px;
+  grid-gap: 0 35px;
   grid-template-areas: "Logo Contact" "Links Content";
   position: relative;
   height: auto;
@@ -47,10 +47,8 @@ p {
 /* content styles */
 .Content {
   grid-area: Content;
-  padding: 0 4rem;
   line-height: 2rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding: 2rem .5rem 2rem .5rem;
   position: relative;
   height: auto;
   min-height: 100% !important;
