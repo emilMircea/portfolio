@@ -4,6 +4,7 @@ import "./App.css";
 import { Switch, Route } from "react-router-dom";
 import CVComponent from "./components/CV/CVComponent";
 import CaseStudies from "./components/CaseStudies";
+import NotFound from "./components/NotFound";
 
 
 
@@ -12,7 +13,7 @@ const App = props => (
     <Switch>
       <Route exact path="/cv" component={CVComponent} />
       <Route path="/" component={CaseStudies} />
-      {/* <Route component={NoMatch} /> */}
+      <Route component={NotFound}/>
     </Switch>
   </div>
 );
