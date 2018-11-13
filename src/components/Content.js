@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, NavLink } from "react-router-dom";
+import { Route } from "react-router-dom";
 import routes from "../constants/routes";
 import name from "../images/name2.svg";
 
