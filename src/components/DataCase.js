@@ -13,13 +13,13 @@ const DataCase = () => (
     </p>
     <p className="solution has-text-weight-light is-size-6">
       <span className="has-text-weight-semibold">Solution:</span> React UI for
-      client-side data analysis. This UI acccepts data in the form given by the
-      mock data that is used to display the charts. This data can be obtained
-      either via an API request or uploaded as an excel file.
+      client-side data analysis. The UI acccepts JSON data and uses it to
+      display the charts. This data can be obtained either via an API request to a backend server or
+      uploaded as an excel file and processed in the browser.
     </p>
     <br />
     <VideoCard
-      videosource="https://duaw26jehqd4r.cloudfront.net/items/0d3W361s0L0t0t1X2k2d/Screen%20Recording%202018-10-31%20at%2005.10%20PM.mov"
+      videosource="https://duaw26jehqd4r.cloudfront.net/items/3K2I2O0A2K0y403p0n27/Screen%20Recording%202018-11-13%20at%2011.50%20AM.mov"
       onlineVersion="https://build-ryfvavnbas.now.sh"
       sourcecode="https://github.com/emilMircea/dashboard.git"
     />
