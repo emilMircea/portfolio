@@ -15,21 +15,19 @@ const EcommCase = () => (
         <span className="has-text-weight-semibold">Solution:</span>
         <li>
           <p className="is-size-6">
-            <span className="has-text-weight-semibold">
-              Faster navigation
-            </span>
-            between pages without triggering browser reload. Here react-router-4
-            helps deliver a responsive user experience.
+            <span className="is-italic">Faster navigation</span> between pages
+            without triggering browser reloads. Here react-router-4 helps
+            deliver a responsive user experience.
           </p>
           <br />
           <VideoCard videosource="https://duaw26jehqd4r.cloudfront.net/items/0F412k0H3F1Z0121041c/Screen%20Recording%202018-11-09%20at%2003.19%20PM.mov" />
         </li>
         <li>
-          <p className='is-size-6'>
-            <span className='has-text-weight-semibold'>Fast shopping cart updates.</span> Adding or removing products
-            from the cart is done instantly without triggering page reloads.
-            Uses Mobx as state management solution to update quantities and
-            prices according to user actions.
+          <p className="is-size-6">
+            <span className="is-italic">Fast shopping cart updates</span> by
+            adding or removing products from the cart instantly without
+            triggering page reloads. Uses Mobx as state management solution to
+            update quantities and prices according to user actions.
           </p>
           <br />
           <VideoCard videosource="https://duaw26jehqd4r.cloudfront.net/items/322p3I0X0i1P283Y2K0Z/Screen%20Recording%202018-11-09%20at%2003.28%20PM.mov" />
