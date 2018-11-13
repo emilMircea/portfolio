@@ -15,10 +15,9 @@ const EcommCase = () => (
         <span className="has-text-weight-semibold">Solution:</span>
         <li>
           <p className="is-size-6">
-            {" "}
             <span className="has-text-weight-semibold">
               Faster navigation
-            </span>{" "}
+            </span>
             between pages without triggering browser reload. Here react-router-4
             helps deliver a responsive user experience.
           </p>
