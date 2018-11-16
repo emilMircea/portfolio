@@ -7,7 +7,7 @@
   position: fixed;
   display: flex;
   align-items: center;
-  font-size: .9rem;
+  font-size: .8rem;
 }
 
 .cv-column {
@@ -60,4 +60,9 @@
 
 .tech-used {
   font-weight: 800;
+}
+
+.achievements {
+  list-style-position: outside;
+  padding-left: .7rem;
 }
