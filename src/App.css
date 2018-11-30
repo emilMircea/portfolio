@@ -21,14 +21,14 @@ p {
   display: grid;
   grid-template-columns: 1.5fr 2.2fr;
   grid-template-rows: 0.22fr 1fr;
-  grid-gap: 0 35px;
+  grid-gap: 200px 35px;
   grid-template-areas: "Logo Contact" "Links Content";
   position: relative;
   height: auto;
   min-height: 100% !important;
 }
 
-.Contact {
+.Navigation {
   grid-area: Contact;
   display: flex;
   justify-content: flex-end;
@@ -73,6 +73,7 @@ p {
 
 .case-wrapper {
   display: block;
+  position: absolute;
 }
 
 .card {
