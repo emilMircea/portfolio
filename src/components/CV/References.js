@@ -8,7 +8,7 @@ const References = () => (
       <span className="is-lowercase">office@achiral.io</span>
     </p>
     <p className="has-text-weight-light is-capitalized">
-      Gianna Cipollone - Owner @ Meow Stores.{" "}
+      Gianna Cipollone - Founder @ Meow Stores.{" "}
       <span className="is-lowercase">info@meowstores.nl</span>
     </p>
     <p className="has-text-weight-light is-capitalized">
