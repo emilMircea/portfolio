@@ -9,8 +9,8 @@ const ANavLink = ({ children, ...props }) => (
 
 const SideBar = ({ pathname }) => (
   <div className="Links animated fadeInLeft">
-    <p className="has-text-grey is-uppercase has-text-weight-semibold is-size-5" style={{ letterSpacing: '3.8px' }}>
-      Case Studies
+    <p className="has-text-grey is-uppercase has-text-weight-semibold is-size-7" style={{ letterSpacing: '4px' }}>
+      Case Study Links
     </p>
     <ul className="is-flex ul-links" style={{ justifyContent: "space-around", marginTop: '.5rem' }}>
       <li>
