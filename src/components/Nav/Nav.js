@@ -35,7 +35,7 @@ class Contact extends React.Component {
 
   render() {
     const { isActive } = this.state;
-    return <div className="Contact">
+    return <div className="Navigation">
         <Link className="see-cv-link" to="/cv">
           See CV
         </Link>
