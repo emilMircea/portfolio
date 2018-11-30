@@ -48,7 +48,7 @@ p {
 .Content {
   grid-area: Content;
   line-height: 2rem;
-  padding: 2rem .5rem 2rem .5rem;
+  padding: 3.5rem .5rem;
   position: relative;
   height: auto;
   min-height: 100% !important;
