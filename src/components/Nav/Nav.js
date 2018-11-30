@@ -41,7 +41,7 @@ class Contact extends React.Component {
         </Link>
         <div className={`dropdown ${isActive ? "is-active" : ""}`}>
           <div className="dropdown-trigger has-text-centered">
-            <p className="see-contact-info is-text" aria-haspopup="true" aria-controls="dropdown-menu" onClick={this.toggleState} style={{ marginTop: "-2px" }}>
+            <p className="see-contact-info is-text" aria-haspopup="true" aria-controls="dropdown-menu" onClick={this.toggleState} style={{ marginTop: "-2px", cursor: 'pointer' }}>
               Contact Info
             </p>
           </div>
